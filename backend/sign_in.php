@@ -25,6 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // Eliminar la contraseña antes de enviar los datos
                 unset($user['contraseña']);
                 echo json_encode([
+                    'redirect' => '../dashboard.php',
                     'status' => 'success',
                     'message' => 'Login exitoso',
                     'user' => $user

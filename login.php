@@ -55,7 +55,7 @@
                 <button type="submit" class="btn btn-primary w-100">Registrarse</button>
             </form>
             <div class="toggle-forms">
-                <p>¿Ya tienes cuenta? <a href="#" id="showLogin">Iniciar Sesión</a></p>
+                <p>¿Ya tienes cuenta? <a href="dashboard.php" id="showLogin">Iniciar Sesión</a></p>
             </div>
         </div>
     </div>
